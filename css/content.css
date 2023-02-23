@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley&family=Unbounded:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+}
+
+/*Надпись*/
+
+
+.text_contain{
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+}
+
+/*Верхние блоки*/
+
+.up_blocks_contain {
+    min-width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 178px;
+    margin-bottom: 200px;
+    
+
+    display: flex;
+    justify-content: space-between;  
+}
+
+.up_block{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 263px;
+    max-height: 263px;
+    padding: 30px;
+
+    background: #AAAAAA;
+    border: 3px solid #17A1FA;
+}
+
+/*Нижние блоки*/
+
+.down_blocks_contain {
+    margin-top: 5%;
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 178px;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.down_block{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 263px;
+    max-height: 263px;
+    padding: 30px;
+
+    background: #AAAAAA;
+    border: 3px solid #17A1FA;
+}
+

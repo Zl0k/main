@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <title>Go2Gether</title>
+</head>
+<body>
+
+    <!--Модальные окна-->
+    <div class="create_account_modal" id="modalCreateWindow">
+        <h2>Создать Аккаунт</h2>
+
+        <div class="modal__links__contain">
+            <div class="create___modal___link"><p>ВКонтакте</p></div>
+            <div class="create___modal___link"><p>Почта</p></div>
+            <div class="create___modal___link"><p>Google</p></div>
+        </div>
+
+        <div class="or__picuer__contain">
+            <div class="left___line"></div>
+            <div class="circle"><p>or</p></div>
+            <div class="right___line"></div>
+        </div>
+
+        <!--Инпуты-->
+        <div class="inps___contain">
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Фамилия">
+            <input type="text" placeholder="Номер телефона">
+            <input type="text" placeholder="Пароль">
+        </div>
+
+        <!--Кнопка СОЗДАТЬ-->
+        <div class="modal___create___btn"><p>Создать</p></div>
+
+        <!--Уже есть аккаунт?-->
+        <div class="have___account___contain">
+            <span>Уже есть Аккаунт?</span><a href="">Войти</a>
+        </div>
+        
+    </div>
+    
+    <!--Шапка-->
+    <header>
+
+        <div class="header_upper">
+
+            <!--Лого-->
+            <h2>GO2gether</h2>
+
+            <!--Инпут-->
+            <div class="search__box">
+                <img src="media/search.png" alt="Search">
+                <input type="text" placeholder="Событие, актер, место">
+            </div>
+
+            <!--Вход-->
+            <div class="sign__btn" id="signBtn">
+                <h4>Войти</h4>
+            </div>
+
+        </div>
+
+        <!--Навигация-->
+        <div class="header_lower">
+
+            <ul>
+                <li>ВСЕ</li>
+                <li>БЛИЖАЙШИЕ МЕРОПРИЯТИЯ</li>
+                <li>МОИ БИЛЕТЫ</li>
+                <li>ЧАТЫ</li>
+                <li>ДРУЗЬЯ</li>
+                <li>ЛЮБИМОЕ</li>
+            </ul>
+
+        </div>
+
+    </header>
+
+    <!--Контент-->
+    <main>
+        <!--Верхние блоки-->
+        
+            <div class="up_blocks_contain">
+                    <div class="up_block"></div>
+                    <div class="up_block"></div>
+                    <div class="up_block"></div>
+                    <div class="up_block"></div>
+            </div>
+
+        <!--Надпись-->
+
+            <h2 class="text_contain">Куда идут мои друзья</h2>
+
+
+        <!--Нижние блоки-->
+
+            <div class="down_blocks_contain">
+                <div class="down_block"></div>
+                <div class="down_block"></div>
+                <div class="down_block"></div>
+                <div class="down_block"></div>
+            </div>
+
+    </main>
+
+    <!--Подвал-->
+    <footer>
+        <div class="footer_contain">
+
+            <div class="footer__left__side">
+                <ul>
+                    <li>Реклама</li>
+                    <li>О проекте</li>
+                    <li>Обратная связь </li>
+                    <li>Мобильная версия</li>
+                </ul>
+            </div>
+
+            <div class="footer__right__side">
+                <ul>
+                    <li><h4 class="contacs___text">Контакты</h4></li>
+                    <li>gotogether@gmail.com</li>
+                    <li>8 (9**) ***-**-**</li>
+                    <li>телеграмм</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

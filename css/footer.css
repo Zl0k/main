@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley&family=Unbounded:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background: #D9D9D9;
+    border-top: 3px solid red;
+}
+
+.footer_contain {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left__side ul,
+.footer__right__side ul {
+    list-style: none;
+}
+
+
+.footer__left__side ul {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__left__side li {
+    text-align: left;
+
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #000000;
+
+    margin-bottom: 10%;
+}
+
+.footer__right__side ul {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__right__side li {
+    text-align: right;
+
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #000000;
+
+    margin-bottom: 10%;
+}
+
+.contacs___text {
+    font-size: 24px;
+}
